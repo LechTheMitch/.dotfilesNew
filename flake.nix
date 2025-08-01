@@ -65,6 +65,9 @@
             "jordanbaird-ice"
             "utm"
             "protonvpn"
+            "crossover"
+            "brave-browser"
+            "google-chrome"
             "gimp"
             "intellij-idea"
             "clion"
@@ -81,6 +84,7 @@
               "XCode" = 497799835;
               "Davinci Resolve" = 571213070;
               "Dropover" = 1355679052;
+              "The Unarchiver" = 425424353;
               # "Quickdrop" = 6740147178;
           };
           onActivation.cleanup = "zap";
@@ -104,6 +108,7 @@
         dock.tilesize = 56;
         dock.magnification = true;
         dock.expose-group-apps = true;
+        dock.minimize-to-application = true;
         dock.wvous-tl-corner = 2;
         dock.wvous-tr-corner = 3;
         dock.wvous-br-corner = 11;
