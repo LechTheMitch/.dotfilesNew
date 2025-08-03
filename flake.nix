@@ -105,6 +105,7 @@
         dock.autohide = true;
         dock.autohide-delay = 0.1;
         dock.show-recents = false;
+        dock.showhidden = true;
         dock.tilesize = 56;
         dock.magnification = true;
         dock.expose-group-apps = true;
@@ -123,6 +124,7 @@
         finder.ShowExternalHardDrivesOnDesktop = false;
         finder.FXPreferredViewStyle = "clmv";
         finder.AppleShowAllFiles = false;
+        finder.CreateDesktop = false;
         finder.ShowPathbar = true;
         finder.ShowStatusBar = true;
         finder.FXDefaultSearchScope = "SCcf";
