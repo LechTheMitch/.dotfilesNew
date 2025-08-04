@@ -124,7 +124,7 @@
         finder.ShowExternalHardDrivesOnDesktop = false;
         finder.FXPreferredViewStyle = "clmv";
         finder.AppleShowAllFiles = false;
-        finder.CreateDesktop = false;
+        finder.CreateDesktop = true;
         finder.ShowPathbar = true;
         finder.ShowStatusBar = true;
         finder.FXDefaultSearchScope = "SCcf";
