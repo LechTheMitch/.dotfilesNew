@@ -57,7 +57,6 @@
           casks = [
             "zen"
             "mac-mouse-fix"
-            "betterdisplay"
             "command-x"
             "shottr"
             "obs"
