@@ -65,7 +65,6 @@
             "jordanbaird-ice"
             "utm"
             "protonvpn"
-            "crossover"
             "brave-browser"
             "google-chrome"
             "gimp"
@@ -83,9 +82,8 @@
               "Onedrive" = 823766827;
               "XCode" = 497799835;
               "Davinci Resolve" = 571213070;
-              "Dropover" = 1355679052;
+              #"Dropover" = 1355679052;
               "The Unarchiver" = 425424353;
-              # "Quickdrop" = 6740147178;
           };
           onActivation.cleanup = "zap";
           onActivation.autoUpdate = true;
