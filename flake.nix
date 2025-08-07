@@ -8,10 +8,6 @@
     home-manager.url = "github:nix-community/home-manager";
     home-manager.inputs.nixpkgs.follows = "nixpkgs";
     nix-homebrew.url = "github:zhaofengli/nix-homebrew";
-    # nix-darwin-linking = {
-    #   url = "github:dwt/nix-darwin/application-linking-done-right";
-    #   inputs.nixpkgs.follows = "nixpkgs";
-    # };
     homebrew-core = {
       url = "github:homebrew/homebrew-core";
       flake = false;
@@ -44,7 +40,7 @@
           nodejs
           iina
         ];
-      programs.zsh.enable = true;
+        
         fonts.packages = with pkgs; [
           fira-code
           nerd-fonts.jetbrains-mono
@@ -62,7 +58,6 @@
             # "zen"
             "mac-mouse-fix"
             "background-music"
-            "intellidock"
             "shottr"
             # "obs"
             "alt-tab"
@@ -86,7 +81,6 @@
               "Onedrive" = 823766827;
               "XCode" = 497799835;
               "Davinci Resolve" = 571213070;
-              #"Dropover" = 1355679052;
               "The Unarchiver" = 425424353;
           };
           onActivation.cleanup = "zap";
@@ -153,28 +147,13 @@
     darwinConfigurations."TheBetrayer" = nix-darwin.lib.darwinSystem {
       modules = [ 
         configuration
-        #Temporary until #1396 is merged
-        # { disabledModules = [ "system/applications.nix" ]; }
-        # "${inputs.nix-darwin-linking}/modules/system/applications.nix"
-          {
-          users.users.gamal = {
-            home = "/Users/gamal";
-            # You can add other user-level settings here
-            # shell = pkgs.zsh;
-          };
-        }
-        
-        # 2. Correctly integrate the Home Manager module.
-        # This block contains all the Home Manager-specific options.
         home-manager.darwinModules.home-manager
         {
-          home-manager.useGlobalPkgs = true;
-          home-manager.useUserPackages = true;
-          home-manager.users.gamal = {
-            imports = [
-              ./zsh.nix
-            ];
-            home.stateVersion = "25.05";
+          users.users.gamal.home = "/Users/gamal";
+          home-manager = {
+            useGlobalPkgs = true;
+            useUserPackages = true;
+            users.gamal = import ./home.nix;
           };
         }
         nix-homebrew.darwinModules.nix-homebrew
