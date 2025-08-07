@@ -8,6 +8,10 @@
     home-manager.url = "github:nix-community/home-manager";
     home-manager.inputs.nixpkgs.follows = "nixpkgs";
     nix-homebrew.url = "github:zhaofengli/nix-homebrew";
+    # nix-darwin-linking = {
+    #   url = "github:dwt/nix-darwin/application-linking-done-right";
+    #   inputs.nixpkgs.follows = "nixpkgs";
+    # };
     homebrew-core = {
       url = "github:homebrew/homebrew-core";
       flake = false;
@@ -40,7 +44,7 @@
           nodejs
           iina
         ];
-
+      programs.zsh.enable = true;
         fonts.packages = with pkgs; [
           fira-code
           nerd-fonts.jetbrains-mono
@@ -55,24 +59,25 @@
             "btop"
           ];
           casks = [
-            "zen"
+            # "zen"
             "mac-mouse-fix"
-            "command-x"
+            "background-music"
+            "intellidock"
             "shottr"
-            "obs"
+            # "obs"
             "alt-tab"
             "jordanbaird-ice"
-            "utm"
+            # "utm"
             "protonvpn"
-            "brave-browser"
-            "google-chrome"
-            "gimp"
-            "intellij-idea"
-            "clion"
-            "pycharm"
-            "rider"
-            "rustrover"
-            "android-studio"
+            # "brave-browser"
+            # "google-chrome"
+            # "gimp"
+            # "intellij-idea"
+            # "clion"
+            # "pycharm"
+            # "rider"
+            # "rustrover"
+            # "android-studio"
           ];
           masApps = {
               "Word" = 462054704;
@@ -103,8 +108,8 @@
         dock.autohide-delay = 0.1;
         dock.show-recents = false;
         dock.showhidden = true;
-        dock.tilesize = 56;
-        dock.magnification = true;
+        dock.tilesize = 64;
+        dock.magnification = false;
         dock.expose-group-apps = true;
         dock.minimize-to-application = true;
         dock.wvous-tl-corner = 2;
@@ -148,13 +153,30 @@
     darwinConfigurations."TheBetrayer" = nix-darwin.lib.darwinSystem {
       modules = [ 
         configuration
-        home-manager.darwinModules.home-manager
+        #Temporary until #1396 is merged
+        # { disabledModules = [ "system/applications.nix" ]; }
+        # "${inputs.nix-darwin-linking}/modules/system/applications.nix"
           {
-            users.users.gamal.home = "/Users/gamal";
-            home-manager.useGlobalPkgs = true;
-            home-manager.useUserPackages = true;
-            home-manager.users.gamal = import ./home.nix;
-          }
+          users.users.gamal = {
+            home = "/Users/gamal";
+            # You can add other user-level settings here
+            # shell = pkgs.zsh;
+          };
+        }
+        
+        # 2. Correctly integrate the Home Manager module.
+        # This block contains all the Home Manager-specific options.
+        home-manager.darwinModules.home-manager
+        {
+          home-manager.useGlobalPkgs = true;
+          home-manager.useUserPackages = true;
+          home-manager.users.gamal = {
+            imports = [
+              ./zsh.nix
+            ];
+            home.stateVersion = "25.05";
+          };
+        }
         nix-homebrew.darwinModules.nix-homebrew
         {
           nix-homebrew = {
