@@ -12,6 +12,7 @@
     ./configs/kitty.nix
     ./configs/zsh.nix
     ./configs/fastfetch.nix
+    ./configs/git.nix
   ];
   
   programs.home-manager.enable = true;
