@@ -3,7 +3,6 @@
 {
   programs.kitty = {
       enable = true;
-      package = pkgs.kitty;
       font.name = "Fira Code SemiBold";
       settings = {
         font_size = 16;
