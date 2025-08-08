@@ -15,7 +15,7 @@
         ${pkgs.fastfetch}/bin/fastfetch
       '';
       history.size = 10000;
-      # history.path = "${config.xdg.dataHome}/Clutter/.zsh/history";
+      
       oh-my-zsh = {
         enable = true;
         plugins = [ "git" ];
