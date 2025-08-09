@@ -9,10 +9,10 @@
   };
 
   imports = [
-    ./configs/kitty.nix
-    ./configs/zsh.nix
-    ./configs/fastfetch.nix
-    ./configs/git.nix
+    ./modules/kitty.nix
+    ./modules/zsh.nix
+    ./modules/fastfetch.nix
+    ./modules/git.nix
   ];
   
   programs.home-manager.enable = true;

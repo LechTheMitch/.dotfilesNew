@@ -64,6 +64,7 @@
             "jordanbaird-ice"
             "utm"
             "parallels"
+            "crossover"
             "protonvpn"
             "brave-browser"
             "google-chrome"
