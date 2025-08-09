@@ -51,28 +51,29 @@
           enable = true;
           brews = [
             "mas"
-            "anylinuxfs"
+            #"anylinuxfs"
             "btop"
           ];
           casks = [
-            # "zen"
+            "zen"
             "mac-mouse-fix"
             "background-music"
             "shottr"
-            # "obs"
+            "obs"
             "alt-tab"
             "jordanbaird-ice"
-            # "utm"
+            "utm"
+            "parallels"
             "protonvpn"
-            # "brave-browser"
-            # "google-chrome"
-            # "gimp"
-            # "intellij-idea"
-            # "clion"
-            # "pycharm"
-            # "rider"
-            # "rustrover"
-            # "android-studio"
+            "brave-browser"
+            "google-chrome"
+            "gimp"
+            "intellij-idea"
+            "clion"
+            "pycharm"
+            "rider"
+            "rustrover"
+            "android-studio"
           ];
           masApps = {
               "Word" = 462054704;
@@ -128,6 +129,11 @@
         NSGlobalDomain.KeyRepeat = 2;
         NSGlobalDomain.NSWindowShouldDragOnGesture = true;
         NSGlobalDomain.AppleICUForce24HourTime = true;
+        NSGlobalDomain."com.apple.keyboard.fnState" = true;
+        NSGlobalDomain.AppleKeyboardUIMode = 2;
+        WindowManager.EnableStandardClickToShowDesktop = true;
+        WindowManager.HideDesktop = true;
+        WindowManager.StandardHideDesktopIcons = true;
       };
 
       # Used for backwards compatibility, please read the changelog before changing.
@@ -178,7 +184,7 @@
             # Optional: Enable fully-declarative tap management
             #
             # With mutableTaps disabled, taps can no longer be added imperatively with `brew tap`.
-            mutableTaps = true;
+            mutableTaps = false;
           };
         }
       ];
