@@ -83,6 +83,8 @@
               "Onedrive" = 823766827;
               "XCode" = 497799835;
               "Davinci Resolve" = 571213070;
+              "Whatsapp" = 310633997;
+              "Messenger" = 1480068668;
               "The Unarchiver" = 425424353;
           };
           onActivation.cleanup = "zap";
