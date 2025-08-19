@@ -1,0 +1,70 @@
+{
+  "export_version": 3,
+  "packages": [
+    {
+      "Id": "9MZ1SNWT0N5D",
+      "Name": "PowerShell",
+      "Version": "Unknown",
+      "Source": "msstore",
+      "ManagerName": "Winget"
+    },
+    {
+      "Id": "Fastfetch-cli.Fastfetch",
+      "Name": "fastfetch",
+      "Version": "2.50.2",
+      "Source": "winget",
+      "ManagerName": "Winget"
+    },
+    {
+      "Id": "Git.Git",
+      "Name": "Git",
+      "Version": "2.50.1",
+      "Source": "winget",
+      "ManagerName": "Winget"
+    },
+    {
+      "Id": "Google.AndroidStudio",
+      "Name": "Android Studio",
+      "Version": "2025.1.2.11",
+      "Source": "winget",
+      "ManagerName": "Winget"
+    },
+    {
+      "Id": "JetBrains.CLion",
+      "Name": "CLion",
+      "Version": "2025.2",
+      "Source": "winget",
+      "ManagerName": "Winget"
+    },
+    {
+      "Id": "JetBrains.IntelliJIDEA.Ultimate",
+      "Name": "IntelliJ IDEA Ultimate Edition",
+      "Version": "2025.2",
+      "Source": "winget",
+      "ManagerName": "Winget"
+    },
+    {
+      "Id": "JetBrains.PyCharm.Professional",
+      "Name": "PyCharm Professional Edition",
+      "Version": "2024.3.5",
+      "Source": "winget",
+      "ManagerName": "Winget"
+    },
+    {
+      "Id": "Microsoft.VisualStudio.2022.Community",
+      "Name": "Visual Studio Community 2022",
+      "Version": "17.14.12",
+      "Source": "winget",
+      "ManagerName": "Winget"
+    },
+    {
+      "Id": "ajeetdsouza.zoxide",
+      "Name": "zoxide",
+      "Version": "0.9.8",
+      "Source": "winget",
+      "ManagerName": "Winget"
+    }
+  ],
+  "incompatible_packages_info": "Incompatible packages cannot be installed from UniGetUI, either because they came from a local source (for example Local PC)or because the package manager was unavailable. Nevertheless, they have been listed here for logging purposes.",
+  "incompatible_packages": []
+}
