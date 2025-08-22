@@ -2,86 +2,65 @@
   "export_version": 3,
   "packages": [
     {
-      "Id": "7zip.7zip",
-      "Name": "7-Zip",
-      "Version": "25.01",
-      "Source": "winget",
-      "ManagerName": "Winget"
-    },
-    {
-      "Id": "9NKSQGP7F2NH",
-      "Name": "WhatsApp",
+      "Id": "9MZ1SNWT0N5D",
+      "Name": "PowerShell",
       "Version": "Unknown",
       "Source": "msstore",
       "ManagerName": "Winget"
     },
     {
-      "Id": "9NV4BS3L1H4S",
-      "Name": "QuickLook",
-      "Version": "Unknown",
-      "Source": "msstore",
-      "ManagerName": "Winget"
-    },
-    {
-      "Id": "9PFXCD722M2C",
-      "Name": "Filelight",
-      "Version": "Unknown",
-      "Source": "msstore",
-      "ManagerName": "Winget"
-    },
-    {
-      "Id": "Brave.Brave",
-      "Name": "Brave",
-      "Version": "139.1.81.135",
+      "Id": "Fastfetch-cli.Fastfetch",
+      "Name": "fastfetch",
+      "Version": "2.50.2",
       "Source": "winget",
       "ManagerName": "Winget"
     },
     {
-      "Id": "LocalSend.LocalSend",
-      "Name": "LocalSend",
-      "Version": "1.17.0",
+      "Id": "Git.Git",
+      "Name": "Git",
+      "Version": "2.50.1",
       "Source": "winget",
       "ManagerName": "Winget"
     },
     {
-      "Id": "Microsoft.Office",
-      "Name": "Microsoft 365 Apps for enterprise",
-      "Version": "16.0.19029.20136",
+      "Id": "JetBrains.Toolbox",
+      "Name": "JetBrains Toolbox",
+      "Version": "2.8.1.52155",
       "Source": "winget",
       "ManagerName": "Winget"
     },
     {
-      "Id": "Nilesoft.Shell",
-      "Name": "Nilesoft Shell",
-      "Version": "1.9.18",
+      "Id": "Microsoft.VisualStudio.2022.Community",
+      "Name": "Visual Studio Community 2022",
+      "Version": "17.14.12",
       "Source": "winget",
       "ManagerName": "Winget"
     },
     {
-      "Id": "PDFgear.PDFgear",
-      "Name": "PDFgear",
-      "Version": "2.1.12",
+      "Id": "OpenJS.NodeJS.LTS",
+      "Name": "Node.js (LTS)",
+      "Version": "22.18.0",
       "Source": "winget",
       "ManagerName": "Winget"
     },
     {
-      "Id": "Proton.ProtonVPN",
-      "Name": "Proton VPN",
-      "Version": "4.2.2",
+      "Id": "Oracle.JDK.24",
+      "Name": "Java(TM) SE Development Kit 24",
+      "Version": "24.0.2.0",
       "Source": "winget",
       "ManagerName": "Winget"
     },
     {
-      "Id": "XP8JK4HZBVF435",
-      "Name": "Auto Dark Mode",
-      "Version": "10.4.2.29",
-      "Source": "msstore",
+      "Id": "Python.Python.3.12",
+      "Name": "Python 3.12",
+      "Version": "3.12.10",
+      "Source": "winget",
       "ManagerName": "Winget"
     },
     {
-      "Id": "Zen-Team.Zen-Browser",
-      "Name": "Zen Browser",
-      "Version": "1.14.11b",
+      "Id": "ajeetdsouza.zoxide",
+      "Name": "zoxide",
+      "Version": "0.9.8",
       "Source": "winget",
       "ManagerName": "Winget"
     }
