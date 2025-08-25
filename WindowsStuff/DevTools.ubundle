@@ -23,6 +23,13 @@
       "ManagerName": "Winget"
     },
     {
+      "Id": "JanDeDobbeleer.OhMyPosh",
+      "Name": "Oh My Posh",
+      "Version": "26.19.1",
+      "Source": "winget",
+      "ManagerName": "Winget"
+    },
+    {
       "Id": "JetBrains.Toolbox",
       "Name": "JetBrains Toolbox",
       "Version": "2.8.1.52155",
