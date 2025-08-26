@@ -69,6 +69,7 @@
             "brave-browser"
             "google-chrome"
             "gimp"
+            "node@22"
             "intellij-idea"
             "clion"
             "pycharm"
