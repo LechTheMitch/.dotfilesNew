@@ -2,4 +2,4 @@ Install-PSResource -Name NerdFonts
 Import-Module -Name NerdFonts
 Install-NerdFont -Name 'FiraCode'
 
-mklink stuff
+New-Item -Path C:\Users\Gamal\Documents\Powershell\Microsoft.PowerShell_profile.ps1 -ItemType SymbolicLink -Value C:\Users\gamal\.dotfiles\WindowsStuff\Microsoft.PowerShell_profile.ps1
