@@ -37,7 +37,6 @@
           mkalias
           zoxide
           vscode
-          nodejs
           iina
         ];
         
@@ -53,6 +52,7 @@
             "mas"
             #"anylinuxfs"
             "btop"
+            "node@22"
           ];
           casks = [
             "zen"
