@@ -2,13 +2,6 @@
   "export_version": 3,
   "packages": [
     {
-      "Id": "9MZ1SNWT0N5D",
-      "Name": "PowerShell",
-      "Version": "Unknown",
-      "Source": "msstore",
-      "ManagerName": "Winget"
-    },
-    {
       "Id": "Fastfetch-cli.Fastfetch",
       "Name": "fastfetch",
       "Version": "2.50.2",
@@ -37,9 +30,23 @@
       "ManagerName": "Winget"
     },
     {
+      "Id": "Microsoft.PowerShell",
+      "Name": "PowerShell",
+      "Version": "7.5.2.0",
+      "Source": "winget",
+      "ManagerName": "Winget"
+    },
+    {
       "Id": "Microsoft.VisualStudio.2022.Community",
       "Name": "Visual Studio Community 2022",
       "Version": "17.14.12",
+      "Source": "winget",
+      "ManagerName": "Winget"
+    },
+    {
+      "Id": "Microsoft.VisualStudioCode",
+      "Name": "Microsoft Visual Studio Code",
+      "Version": "1.103.2",
       "Source": "winget",
       "ManagerName": "Winget"
     },
@@ -51,6 +58,6 @@
       "ManagerName": "Winget"
     }
   ],
-  "incompatible_packages_info": "Incompatible packages cannot be installed from UniGetUI, either because they came from a local source (for example Local PC)or because the package manager was unavailable. Nevertheless, they have been listed here for logging purposes.",
+  "incompatible_packages_info": "Incompatible packages cannot be installed from UniGetUI, either because they came from a local source (for example Local PC) or because the package manager was unavailable. Nevertheless, they have been listed here for logging purposes.",
   "incompatible_packages": []
 }
