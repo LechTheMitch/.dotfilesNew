@@ -53,6 +53,7 @@
             #"anylinuxfs"
             "btop"
             "node@22"
+            "yt-dlp"
           ];
           casks = [
             "zen"
