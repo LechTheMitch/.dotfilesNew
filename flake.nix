@@ -34,7 +34,6 @@
           wget
           raycast
           git
-          mkalias
           zoxide
           vscode
           iina
@@ -52,7 +51,8 @@
             "mas"
             #"anylinuxfs"
             "btop"
-            "node@22"
+            "node@22" 
+            "ffmpeg"
             "yt-dlp"
           ];
           casks = [
@@ -61,6 +61,8 @@
             "background-music"
             "shottr"
             "obs"
+            #"rustdesk"
+            "localsend"
             "alt-tab"
             "jordanbaird-ice"
             "utm"
