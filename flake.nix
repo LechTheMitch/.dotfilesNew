@@ -57,6 +57,8 @@
           ];
           casks = [
             "zen"
+            #"qlcodec from github"
+            "syntax-highlight"
             "mac-mouse-fix"
             "background-music"
             "shottr"
