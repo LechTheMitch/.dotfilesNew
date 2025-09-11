@@ -122,8 +122,8 @@
         dock.wvous-bl-corner = 4;
         dock.persistent-apps = [
           "/Applications/Zen.app"
-          "${pkgs.kitty}/Applications/kitty.app"
-          "${pkgs.vscode}/Applications/Visual Studio Code.app"
+          "/Applications/Nix Apps/kitty.app"
+          "/Applications/Nix Apps/Visual Studio Code.app"
         ];
         loginwindow.GuestEnabled = false;
         finder._FXSortFoldersFirst = true;
