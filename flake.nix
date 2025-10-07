@@ -71,15 +71,17 @@
             "parallels"
             "crossover"
             "protonvpn"
-            "brave-browser"
             "google-chrome"
             "gimp"
             "zed"
+            "cursor"
+            "jetbrains-toolbox"
             "intellij-idea"
             "clion"
             "pycharm"
             "rider"
             "rustrover"
+            "android-platform-tools"
             "android-studio"
           ];
           masApps = {
