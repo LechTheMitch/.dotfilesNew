@@ -67,6 +67,7 @@
             "localsend"
             "alt-tab"
             "jordanbaird-ice"
+            "monitorcontrol"
             "utm"
             "parallels"
             "crossover"
