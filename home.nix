@@ -6,6 +6,7 @@
   home.homeDirectory = "/Users/gamal";
   home.sessionVariables = {
     EDITOR = "nvim";
+    PATH = "/opt/homebrew/opt/node@22/bin:$PATH";
   };
 
   imports = [

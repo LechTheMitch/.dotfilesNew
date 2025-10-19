@@ -79,6 +79,7 @@
             "cursor"
             "jetbrains-toolbox"
             "intellij-idea"
+            "webstorm"
             "clion"
             "pycharm"
             "rider"
