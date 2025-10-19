@@ -75,6 +75,7 @@
             "google-chrome"
             "gimp"
             "zed"
+            "postman"
             "cursor"
             "jetbrains-toolbox"
             "intellij-idea"
