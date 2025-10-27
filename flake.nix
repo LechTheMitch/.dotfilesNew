@@ -57,6 +57,7 @@
           ];
           casks = [
             "zen"
+            #"stacher https://stacher.io/"
             #"qlcodec from github"
             "syntax-highlight"
             "mac-mouse-fix"
