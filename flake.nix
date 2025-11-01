@@ -98,6 +98,7 @@
               "Davinci Resolve" = 571213070;
               "Whatsapp" = 310633997;
               "Messenger" = 1480068668;
+              "PDFgear" = 6469021132;
               "The Unarchiver" = 425424353;
           };
           onActivation.cleanup = "zap";
