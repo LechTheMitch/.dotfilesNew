@@ -80,6 +80,7 @@
             "docker-desktop"
             "postman"
             "zed"
+            "zulufx"
             "cursor"
             "jetbrains-toolbox"
             "intellij-idea"

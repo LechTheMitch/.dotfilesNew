@@ -17,7 +17,6 @@
   ];
   
   programs.home-manager.enable = true;
-  programs.java.enable = true;
   programs.zoxide = {
     enable = true;
     enableZshIntegration = true;
