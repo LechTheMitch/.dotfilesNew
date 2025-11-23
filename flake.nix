@@ -51,7 +51,8 @@
             "mas"
             #"anylinuxfs"
             "btop"
-            "node@22" 
+            "node@22"
+            "python@3.12" 
             "ffmpeg"
             "yt-dlp"
           ];
@@ -74,6 +75,7 @@
             "crossover"
             "protonvpn"
             "google-chrome"
+            "brave-browser"
             "gimp"
             "docker-desktop"
             "postman"
