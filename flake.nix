@@ -65,6 +65,7 @@
             "background-music"
             "shottr"
             "obs"
+            "camo-studio"
             #"rustdesk"
             "localsend"
             "alt-tab"
