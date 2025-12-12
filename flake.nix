@@ -38,7 +38,7 @@
           vscode
           iina
         ];
-        
+
         fonts.packages = with pkgs; [
           fira-code
           nerd-fonts.jetbrains-mono
@@ -52,7 +52,9 @@
             #"anylinuxfs"
             "btop"
             "node@22"
-            "python@3.12" 
+            #Python and TK should always be downloaded together for GUI Python apps
+            "python@3.12"
+            "python-tk@3.12"
             "ffmpeg"
             "yt-dlp"
           ];
@@ -164,15 +166,15 @@
       # The platform the configuration will be used on.
       nixpkgs.hostPlatform = "aarch64-darwin";
     };
-    
+
 
   in
   {
     # Build darwin flake using:
     # $ darwin-rebuild build --flake .#TheBetrayer
-    
+
     darwinConfigurations."TheBetrayer" = nix-darwin.lib.darwinSystem {
-      modules = [ 
+      modules = [
         configuration
         home-manager.darwinModules.home-manager
         {
