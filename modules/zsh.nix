@@ -9,6 +9,7 @@
       shellAliases = {
         ls = "ls --color=auto";
         grep = "grep --color=auto";
+        flakeupdate = "nix flake update --flake ~/.dotfiles";
         darwinupdate = "sudo darwin-rebuild switch --flake ~/.dotfiles/";
       };
       initContent = ''
