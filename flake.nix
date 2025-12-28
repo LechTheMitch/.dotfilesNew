@@ -106,6 +106,10 @@
               "Messenger" = 1480068668;
               "PDFgear" = 6469021132;
               "The Unarchiver" = 425424353;
+              "Essayist" = 1537845384;
+
+              #Safari Extentions
+              "Ghostery" = 6504861501; #Adblock
           };
           onActivation.cleanup = "zap";
           onActivation.autoUpdate = true;
