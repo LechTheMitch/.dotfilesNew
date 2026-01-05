@@ -135,8 +135,8 @@
         dock.minimize-to-application = true;
         dock.wvous-tl-corner = 2;
         dock.wvous-tr-corner = 3;
-        dock.wvous-br-corner = 11;
-        dock.wvous-bl-corner = 4;
+        dock.wvous-br-corner = 4;
+        dock.wvous-bl-corner = 11;
         dock.persistent-apps = [
           "/Applications/Zen.app"
           "/Applications/Nix Apps/kitty.app"
