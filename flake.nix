@@ -109,7 +109,7 @@
 
               #Safari Extentions
               "Ghostery" = 6504861501; #Adblock
-              "Turn Off the Lights" = 1273998507 #Dark Mode Extentiom
+              "Turn Off the Lights" = 1273998507; #Dark Mode Extention
           };
           onActivation.cleanup = "zap";
           onActivation.autoUpdate = true;
