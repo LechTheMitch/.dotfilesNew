@@ -78,7 +78,7 @@
             "crossover"
             "protonvpn"
             "google-chrome"
-            "brave-browser"
+            "vivaldi"
             "gimp"
             "docker-desktop"
             "postman"
