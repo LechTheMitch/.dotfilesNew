@@ -74,7 +74,7 @@
             "localsend"
             "alt-tab"
             "jordanbaird-ice"
-            "monitorcontrol"
+            "betterdisplay"
             "utm"
             "parallels"
             "crossover"
