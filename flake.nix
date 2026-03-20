@@ -87,7 +87,7 @@
             "docker-desktop"
             "postman"
             "zed"
-            "zulufx"
+            "zulufx@25"
             "cursor"
             "jetbrains-toolbox"
             "intellij-idea"
