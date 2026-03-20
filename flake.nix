@@ -37,6 +37,7 @@
           zoxide
           vscode
           iina
+          tmux
         ];
 
         fonts.packages = with pkgs; [
@@ -60,6 +61,7 @@
           ];
           casks = [
             "zen"
+            "affinity"
             #"stacher https://stacher.io/"
             #"qlcodec from github"
             "syntax-highlight"
