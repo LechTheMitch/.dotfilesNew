@@ -1,5 +1,6 @@
 {
   description = "Example nix-darwin system flake";
+  # Note to self, try to install most stuff using brew
 
   inputs = {
     nixpkgs.url = "github:NixOS/nixpkgs/nixpkgs-unstable";
