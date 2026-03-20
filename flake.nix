@@ -38,6 +38,8 @@
           vscode
           iina
           tmux
+          #MariaDB will be updated later
+          mariadb_118
         ];
 
         fonts.packages = with pkgs; [
