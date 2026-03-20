@@ -38,8 +38,6 @@
           vscode
           iina
           tmux
-          #MariaDB will be updated later
-          mariadb_118
         ];
 
         fonts.packages = with pkgs; [
@@ -60,6 +58,7 @@
             "python-tk@3.12"
             "ffmpeg"
             "yt-dlp"
+            "mariadb"
           ];
           casks = [
             "zen"
@@ -98,6 +97,7 @@
             "rustrover"
             "android-platform-tools"
             "android-studio"
+            "mysqlworkbench"
           ];
           masApps = {
               "Word" = 462054704;
