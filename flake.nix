@@ -59,7 +59,8 @@
             "python-tk@3.12"
             "ffmpeg"
             "yt-dlp"
-            "mariadb"
+            "mysql@8.4"
+            "gemini-cli"
           ];
           casks = [
             "zen"
@@ -87,8 +88,9 @@
             "docker-desktop"
             "postman"
             "zed"
-            "zulufx@25"
+            "zulufx"
             "cursor"
+            "codex-app"
             "jetbrains-toolbox"
             "intellij-idea"
             "webstorm"
@@ -99,6 +101,9 @@
             "android-platform-tools"
             "android-studio"
             "mysqlworkbench"
+
+            #Children Garbage
+            "roblox"
           ];
           masApps = {
               "Word" = 462054704;
@@ -111,6 +116,7 @@
               "PDFgear" = 6469021132;
               "The Unarchiver" = 425424353;
               "Essayist" = 1537845384;
+              "Bitwardin" = 1352778147;
 
               #Safari Extentions
               "Ghostery" = 6504861501; #Adblock
