@@ -75,7 +75,7 @@
             "camo-studio"
             #"rustdesk"
             "localsend"
-            "alt-tab"
+            "dockdoor"
             "jordanbaird-ice"
             "betterdisplay"
             "utm"
