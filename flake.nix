@@ -76,6 +76,7 @@
             #"rustdesk"
             "localsend"
             "dockdoor"
+            "hyperkey"
             "jordanbaird-ice"
             "betterdisplay"
             "utm"
