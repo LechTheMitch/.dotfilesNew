@@ -58,7 +58,6 @@
             "python-tk@3.12"
             "ffmpeg"
             "yt-dlp"
-            "mysql@8.4"
             "gemini-cli"
           ];
           casks = [
