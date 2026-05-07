@@ -31,7 +31,6 @@
         [ neovim
           fastfetch
           stow
-          kitty
           wget
           raycast
           git
@@ -69,7 +68,7 @@
             #"qlcodec from github"
             "syntax-highlight"
             "mac-mouse-fix"
-            "background-music"
+            "finetune"
             "shottr"
             "obs"
             "camo-studio"
@@ -90,6 +89,8 @@
             "postman"
             "zed"
             "zulufx"
+            "ghostty"
+            "copilot-cli"
             "cursor"
             "codex-app"
             "jetbrains-toolbox"
@@ -152,7 +153,7 @@
         dock.wvous-bl-corner = 11;
         dock.persistent-apps = [
           "/Applications/Zen.app"
-          "/Applications/Nix Apps/kitty.app"
+          "/Applications/ghostty.app"
           "/Applications/Nix Apps/Visual Studio Code.app"
         ];
         loginwindow.GuestEnabled = false;

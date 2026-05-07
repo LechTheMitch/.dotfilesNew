@@ -2,7 +2,7 @@
 
 {
   programs.kitty = {
-      enable = true;
+      enable = false;
       font.name = "Fira Code SemiBold";
       settings = {
         font_size = 16;
