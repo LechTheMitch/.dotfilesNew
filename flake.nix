@@ -84,6 +84,9 @@
             "google-chrome"
             "vivaldi"
             "gimp"
+
+            #Dev
+            "unity-hub"
             "docker-desktop"
             "postman"
             "zed"
