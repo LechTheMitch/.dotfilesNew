@@ -74,7 +74,7 @@
             #"rustdesk"
             "localsend"
             "dockdoor"
-            "hyperkey"
+            "appcleaner"
             "jordanbaird-ice"
             "betterdisplay"
             "utm"
@@ -86,7 +86,6 @@
             "gimp"
 
             #Dev
-            "unity-hub"
             "docker-desktop"
             "postman"
             "zed"
@@ -121,7 +120,7 @@
               "The Unarchiver" = 425424353;
               "Essayist" = 1537845384;
               "Bitwardin" = 1352778147;
-
+              "Kofe Flow" = 6762003285;
               #Safari Extentions
               "Ghostery" = 6504861501; #Adblock
               "Turn Off the Lights" = 1273998507; #Dark Mode Extention
