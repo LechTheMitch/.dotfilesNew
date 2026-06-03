@@ -75,6 +75,7 @@
             "localsend"
             "dockdoor"
             "appcleaner"
+            "grandprespective"
             "jordanbaird-ice"
             "betterdisplay"
             "utm"
