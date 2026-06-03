@@ -59,6 +59,7 @@
             "ffmpeg"
             "yt-dlp"
             "gemini-cli"
+            "awscli"
           ];
           casks = [
             "zen"
@@ -75,7 +76,7 @@
             "localsend"
             "dockdoor"
             "appcleaner"
-            "grandprespective"
+            "grandperspective"
             "jordanbaird-ice"
             "betterdisplay"
             "utm"
