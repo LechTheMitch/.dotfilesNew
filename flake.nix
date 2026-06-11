@@ -38,6 +38,7 @@
           vscode
           iina
           tmux
+          cocoapods
         ];
 
         fonts.packages = with pkgs; [
@@ -92,6 +93,7 @@
             "postman"
             "zed"
             "zulufx"
+            "zulu@17"
             "ghostty"
             "copilot-cli"
             "cursor"
