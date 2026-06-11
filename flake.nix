@@ -58,7 +58,7 @@
             "python-tk@3.12"
             "ffmpeg"
             "yt-dlp"
-            "gemini-cli"
+            "antigravity-cli"
             "awscli"
           ];
           casks = [
