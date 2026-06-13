@@ -32,13 +32,15 @@
           fastfetch
           stow
           wget
-          raycast
           git
           zoxide
-          vscode
-          iina
           tmux
-          cocoapods
+          btop
+          python312
+          zulu17
+          awscli2
+          nodejs
+          ffmpeg
         ];
 
         fonts.packages = with pkgs; [
@@ -52,14 +54,6 @@
           brews = [
             "mas"
             #"anylinuxfs"
-            "btop"
-            "node@22"
-            #Python and TK should always be downloaded together for GUI Python apps
-            "python@3.12"
-            "python-tk@3.12"
-            "ffmpeg"
-            "yt-dlp"
-            "awscli"
           ];
           casks = [
             "zen"
@@ -72,6 +66,7 @@
             "shottr"
             "obs"
             "camo-studio"
+            "raycast"
             #"rustdesk"
             "localsend"
             "dockdoor"
@@ -86,6 +81,7 @@
             "google-chrome"
             "vivaldi"
             "gimp"
+            "iina"
 
             #Dev
             "docker-desktop"
@@ -98,6 +94,7 @@
             "cursor"
             "codex-app"
             "antigravity-cli"
+            "visual-studio-code"
             "jetbrains-toolbox"
             "intellij-idea"
             "webstorm"
@@ -105,7 +102,6 @@
             "pycharm"
             "rider"
             "rustrover"
-            "android-platform-tools"
             "android-studio"
             "mysqlworkbench"
 
