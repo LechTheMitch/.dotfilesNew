@@ -59,7 +59,6 @@
             "python-tk@3.12"
             "ffmpeg"
             "yt-dlp"
-            "antigravity-cli"
             "awscli"
           ];
           casks = [
@@ -98,6 +97,7 @@
             "copilot-cli"
             "cursor"
             "codex-app"
+            "antigravity-cli"
             "jetbrains-toolbox"
             "intellij-idea"
             "webstorm"
