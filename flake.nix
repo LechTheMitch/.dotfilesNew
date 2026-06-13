@@ -77,7 +77,7 @@
             "dockdoor"
             "appcleaner"
             "grandperspective"
-            "jordanbaird-ice"
+            "thaw"
             "betterdisplay"
             "utm"
             "parallels"
