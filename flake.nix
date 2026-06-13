@@ -87,8 +87,6 @@
             "docker-desktop"
             "postman"
             "zed"
-            "zulufx"
-            "zulu@17"
             "ghostty"
             "copilot-cli"
             "cursor"
