@@ -1,0 +1,91 @@
+{
+  "export_version": 3,
+  "packages": [
+    {
+      "Id": "7zip.7zip",
+      "Name": "7-Zip",
+      "Version": "25.01",
+      "Source": "winget",
+      "ManagerName": "Winget"
+    },
+    {
+      "Id": "9NKSQGP7F2NH",
+      "Name": "WhatsApp",
+      "Version": "Unknown",
+      "Source": "msstore",
+      "ManagerName": "Winget"
+    },
+    {
+      "Id": "9NV4BS3L1H4S",
+      "Name": "QuickLook",
+      "Version": "Unknown",
+      "Source": "msstore",
+      "ManagerName": "Winget"
+    },
+    {
+      "Id": "9PFXCD722M2C",
+      "Name": "Filelight",
+      "Version": "Unknown",
+      "Source": "msstore",
+      "ManagerName": "Winget"
+    },
+    {
+      "Id": "Brave.Brave",
+      "Name": "Brave",
+      "Version": "139.1.81.135",
+      "Source": "winget",
+      "ManagerName": "Winget"
+    },
+    {
+      "Id": "LocalSend.LocalSend",
+      "Name": "LocalSend",
+      "Version": "1.17.0",
+      "Source": "winget",
+      "ManagerName": "Winget"
+    },
+    {
+      "Id": "Microsoft.Office",
+      "Name": "Microsoft 365 Apps for enterprise",
+      "Version": "16.0.19029.20136",
+      "Source": "winget",
+      "ManagerName": "Winget"
+    },
+    {
+      "Id": "Nilesoft.Shell",
+      "Name": "Nilesoft Shell",
+      "Version": "1.9.18",
+      "Source": "winget",
+      "ManagerName": "Winget"
+    },
+    {
+      "Id": "PDFgear.PDFgear",
+      "Name": "PDFgear",
+      "Version": "2.1.12",
+      "Source": "winget",
+      "ManagerName": "Winget"
+    },
+    {
+      "Id": "Proton.ProtonVPN",
+      "Name": "Proton VPN",
+      "Version": "4.2.2",
+      "Source": "winget",
+      "ManagerName": "Winget"
+    },
+    {
+      "Id": "XP8JK4HZBVF435",
+      "Name": "Auto Dark Mode",
+      "Version": "10.4.2.29",
+      "Source": "msstore",
+      "ManagerName": "Winget"
+    },
+    {
+      "Id": "Zen-Team.Zen-Browser",
+      "Name": "Zen Browser",
+      "Version": "1.14.11b",
+      "Source": "winget",
+      "ManagerName": "Winget"
+    }
+  ],
+  "incompatible_packages_info": "Incompatible packages cannot be installed from UniGetUI, either because they came from a local source (for example Local PC)or because the package manager was unavailable. Nevertheless, they have been listed here for logging purposes.",
+  "incompatible_packages": []
+}
