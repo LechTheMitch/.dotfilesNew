@@ -10,7 +10,7 @@
             email = "104312143+LechTheMitch@users.noreply.github.com";
           };
           init = {
-            defaultBranch = "main";
+            defaultBranch = "master";
           };
       };
   };
