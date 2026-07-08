@@ -30,7 +30,7 @@
           awscli2
           nodejs
           ffmpeg
-          ripgrip
+          ripgrep
         ];
 
         fonts.packages = with pkgs; [
