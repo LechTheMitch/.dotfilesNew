@@ -20,6 +20,8 @@
           stow
           wget
           git
+          gh
+          fzf
           zoxide
           tmux
           btop
@@ -28,6 +30,7 @@
           awscli2
           nodejs
           ffmpeg
+          ripgrip
         ];
 
         fonts.packages = with pkgs; [
@@ -98,11 +101,11 @@
               #"PowerPoint" = 462062816;
               "Onedrive" = 823766827;
               "XCode" = 497799835;
-              "Davinci Resolve" = 571213070;
+              #"Davinci Resolve" = 571213070;
               "Whatsapp" = 310633997;
               "PDFgear" = 6469021132;
               "The Unarchiver" = 425424353;
-              "Essayist" = 1537845384;
+              #"Essayist" = 1537845384;
               #"Bitwardin" = 1352778147;
               #"Kofe Flow" = 6762003285;
               #Safari Extentions
