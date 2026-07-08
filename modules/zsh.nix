@@ -13,7 +13,15 @@
         darwinupdate = "sudo darwin-rebuild switch --flake ~/.dotfiles/";
       };
       initContent = ''
-        ${pkgs.fastfetch}/bin/fastfetch
+        lazyg() {
+          if [ -z "$1" ]; then
+            echo "Usage: lazyg \"commit message\""
+            return 2
+          fi
+          git add .
+          git commit -m "$1"
+          git push
+        }
       '';
       history.size = 10000;
       

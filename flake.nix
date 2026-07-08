@@ -8,18 +8,9 @@
     nix-darwin.inputs.nixpkgs.follows = "nixpkgs";
     home-manager.url = "github:nix-community/home-manager";
     home-manager.inputs.nixpkgs.follows = "nixpkgs";
-    nix-homebrew.url = "github:zhaofengli/nix-homebrew";
-    homebrew-core = {
-      url = "github:homebrew/homebrew-core";
-      flake = false;
-    };
-    homebrew-cask = {
-      url = "github:homebrew/homebrew-cask";
-      flake = false;
-    };
   };
 
-  outputs = inputs@{ self, nix-darwin, nixpkgs, nix-homebrew, homebrew-core, homebrew-cask, home-manager, ...}:
+  outputs = inputs@{ self, nix-darwin, nixpkgs, home-manager, ...}:
   let
     configuration = { pkgs, ... }: {
       nixpkgs.config.allowUnfree = true;
@@ -75,7 +66,7 @@
             "crossover"
             "protonvpn"
             "google-chrome"
-            "vivaldi"
+            "helium-browser"
             "gimp"
             "iina"
             "dimentium/autoraise/autoraiseapp"
@@ -112,19 +103,17 @@
               "PDFgear" = 6469021132;
               "The Unarchiver" = 425424353;
               "Essayist" = 1537845384;
-              "Bitwardin" = 1352778147;
+              #"Bitwardin" = 1352778147;
               #"Kofe Flow" = 6762003285;
               #Safari Extentions
               "Ghostery" = 6504861501; #Adblock
           };
-          taps = {
-              name = "dimentium/autoraise";
-              clone_target = "https://github.com/Dimentium/homebrew-autoraise.git";
-              force_auto_update = true;
-          }
+          taps = [
+            "dimentium/autoraise"
+          ];
           onActivation.cleanup = "zap";
           onActivation.autoUpdate = true;
-          onActivation.upgrade = true;
+          onActivation.upgrade = false;
         };
 
       nix.settings.experimental-features = "nix-command flakes";
@@ -200,31 +189,6 @@
             useGlobalPkgs = true;
             useUserPackages = true;
             users.gamal = import ./home.nix;
-          };
-        }
-        #Never Enable, good idea, but i want brew to manage itself
-        nix-homebrew.darwinModules.nix-homebrew
-        {
-          nix-homebrew = {
-            # Install Homebrew under the default prefix
-            enable = false;
-
-            # Apple Silicon Only: Also install Homebrew under the default Intel prefix for Rosetta 2
-            enableRosetta = false;
-
-            # User owning the Homebrew prefix
-            user = "gamal";
-
-            # Optional: Declarative tap management
-            taps = {
-              "homebrew/homebrew-core" = homebrew-core;
-              "homebrew/homebrew-cask" = homebrew-cask;
-            };
-
-            # Optional: Enable fully-declarative tap management
-            #
-            # With mutableTaps disabled, taps can no longer be added imperatively with `brew tap`.
-            mutableTaps = true;
           };
         }
       ];
