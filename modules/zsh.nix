@@ -22,6 +22,7 @@
           git commit -m "$1"
           git push
         }
+        ${pkgs.fastfetch}/bin/fastfetch
       '';
       history.size = 10000;
       
