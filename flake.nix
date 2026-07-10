@@ -75,8 +75,8 @@
             "dimentium/autoraise/autoraiseapp"
 
             #Dev
-            "docker-desktop"
-            "postman"
+            "orbstack"
+            "bruno"
             "zed"
             "ghostty"
             "copilot-cli"
