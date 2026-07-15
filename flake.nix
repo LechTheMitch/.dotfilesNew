@@ -26,7 +26,6 @@
           tmux
           btop
           python312
-          zulu17
           awscli2
           nodejs
           ffmpeg
@@ -91,6 +90,7 @@
             "pycharm"
             "android-studio"
             "mysqlworkbench"
+            "zulu"
 
             #Children Garbage
             #"roblox"
