@@ -67,7 +67,7 @@
             "parallels"
             "crossover"
             "protonvpn"
-            "google-chrome"
+            #"google-chrome"
             "helium-browser"
             "gimp"
             "iina"
