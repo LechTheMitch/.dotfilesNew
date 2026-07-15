@@ -92,7 +92,7 @@
             "mysqlworkbench"
             "t3-code"
             "zulufx"
-            "zulu@17"
+            "zulu@21"
 
             #Children Garbage
             #"roblox"
