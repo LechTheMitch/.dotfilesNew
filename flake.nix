@@ -80,7 +80,7 @@
             "ghostty"
             "copilot-cli"
             "cursor"
-            "codex-app"
+            "codex"
             "antigravity-cli"
             "visual-studio-code"
             "jetbrains-toolbox"
@@ -90,6 +90,7 @@
             "pycharm"
             "android-studio"
             "mysqlworkbench"
+            "t3-code"
             "zulu"
 
             #Children Garbage
