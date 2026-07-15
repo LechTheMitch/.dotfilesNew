@@ -91,7 +91,8 @@
             "android-studio"
             "mysqlworkbench"
             "t3-code"
-            "zulu"
+            "zulufx"
+            "zulu@17"
 
             #Children Garbage
             #"roblox"
