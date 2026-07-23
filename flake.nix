@@ -55,7 +55,7 @@
             "obs"
             "camo-studio"
             "raycast"
-            #"rustdesk"
+            "rustdesk"
             "localsend"
             "dockdoor"
             "appcleaner"
