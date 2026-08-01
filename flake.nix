@@ -68,6 +68,7 @@
             "crossover"
             "protonvpn"
             #"google-chrome"
+            "google-drive"
             "helium-browser"
             "gimp"
             "iina"
@@ -101,7 +102,7 @@
               #"Word" = 462054704;
               #"Excel" = 462058435;
               #"PowerPoint" = 462062816;
-              "Onedrive" = 823766827;
+              #"Onedrive" = 823766827;
               "XCode" = 497799835;
               #"Davinci Resolve" = 571213070;
               "Whatsapp" = 310633997;
