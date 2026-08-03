@@ -67,7 +67,6 @@
             "parallels"
             "crossover"
             "protonvpn"
-            #"google-chrome"
             "google-drive"
             "helium-browser"
             "gimp"
@@ -99,10 +98,9 @@
             #"roblox"
           ];
           masApps = {
-              #"Word" = 462054704;
-              #"Excel" = 462058435;
-              #"PowerPoint" = 462062816;
-              #"Onedrive" = 823766827;
+              # "Pages" = 361309726;
+              # "Numbers" = 361304891;
+              # "Keynote" = 361304891;
               "XCode" = 497799835;
               #"Davinci Resolve" = 571213070;
               "Whatsapp" = 310633997;
@@ -110,7 +108,7 @@
               "The Unarchiver" = 425424353;
               #"Essayist" = 1537845384;
               #"Bitwardin" = 1352778147;
-              #"Kofe Flow" = 6762003285;
+
               #Safari Extentions
               "Ghostery" = 6504861501; #Adblock
           };
