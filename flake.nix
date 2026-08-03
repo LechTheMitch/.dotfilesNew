@@ -66,7 +66,7 @@
             "utm"
             "parallels"
             "crossover"
-            "openoffice"
+            "onlyoffice"
             "protonvpn"
             "google-drive"
             "helium-browser"
