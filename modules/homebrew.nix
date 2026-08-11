@@ -34,6 +34,7 @@
       "helium-browser"
       "gimp"
       "iina"
+      "kde-connect"
       "dimentium/autoraise/autoraiseapp"
 
       #Dev
