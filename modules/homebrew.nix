@@ -43,7 +43,6 @@
       "zed"
       "ghostty"
       "copilot-cli"
-      "cursor"
       "codex"
       "antigravity-cli"
       "visual-studio-code"
@@ -51,6 +50,7 @@
       "intellij-idea"
       "webstorm"
       "clion"
+      "rider"
       "pycharm"
       "android-studio"
       "mysqlworkbench"
@@ -62,16 +62,12 @@
       #"roblox"
     ];
     masApps = {
-      # "Pages" = 361309726;
-      # "Numbers" = 361304891;
-      # "Keynote" = 361304891;
       "XCode" = 497799835;
       #"Davinci Resolve" = 571213070;
       "Whatsapp" = 310633997;
       "PDFgear" = 6469021132;
       "The Unarchiver" = 425424353;
-      #"Essayist" = 1537845384;
-      #"Bitwardin" = 1352778147;
+      "Bitwardin" = 1352778147;
 
       #Safari Extentions
       "Ghostery" = 6504861501; #Adblock
