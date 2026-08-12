@@ -32,6 +32,7 @@
       "protonvpn"
       "google-drive"
       "helium-browser"
+      "vivaldi"
       "gimp"
       "iina"
       "kde-connect"
