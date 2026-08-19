@@ -30,7 +30,6 @@
       "crossover"
       "onlyoffice"
       "protonvpn"
-      "google-chrome"
       "google-drive"
       "helium-browser"
       "gimp"
