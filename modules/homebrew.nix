@@ -17,7 +17,6 @@
       "obs"
       "camo-studio"
       "raycast"
-      "webcatalog"
       "rustdesk"
       "localsend"
       "dockdoor"
