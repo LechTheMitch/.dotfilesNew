@@ -17,6 +17,7 @@
       "obs"
       "camo-studio"
       "raycast"
+      "webcatalog"
       "rustdesk"
       "localsend"
       "dockdoor"
@@ -57,6 +58,7 @@
       "t3-code"
       "zulufx"
       "zulu@21"
+      "dotnet-sdk"
 
       #Children Garbage
       #"roblox"
