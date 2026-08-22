@@ -25,7 +25,7 @@
           zoxide
           tmux
           btop
-          python312
+          (python312.withPackages (ps: [ ps.pip ]))
           awscli2
           nodejs
           ffmpeg

@@ -69,7 +69,7 @@
       "PDFgear" = 6469021132;
       "The Unarchiver" = 425424353;
       "Bitwardin" = 1352778147;
-
+      "Garageband" = 682658836;
       #Safari Extentions
       "Ghostery" = 6504861501; #Adblock
     };
