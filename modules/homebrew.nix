@@ -34,6 +34,7 @@
       "helium-browser"
       "gimp"
       "iina"
+      "openwhispr"
       "kde-connect"
       "dimentium/autoraise/autoraiseapp"
 
