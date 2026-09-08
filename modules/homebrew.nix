@@ -37,6 +37,7 @@
       "openwhispr"
       "kde-connect"
       "dimentium/autoraise/autoraiseapp"
+      "iloader"
 
       #Dev
       "orbstack"
@@ -73,6 +74,7 @@
       "Garageband" = 682658836;
       #Safari Extentions
       "Ghostery" = 6504861501; #Adblock
+      "Dark Reader" = 1438243180;
     };
     taps = [
       "dimentium/autoraise"
