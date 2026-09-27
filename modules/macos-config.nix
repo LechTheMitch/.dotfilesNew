@@ -41,5 +41,7 @@
     WindowManager.HideDesktop = true;
     WindowManager.StandardHideDesktopIcons = true;
     WindowManager.EnableTiledWindowMargins = false;
+    trackpad.Clicking = true;
+    trackpad.TrackpadThreeFingerDrag = true;
   };
 }
