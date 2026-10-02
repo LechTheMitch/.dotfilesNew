@@ -35,7 +35,8 @@
       "gimp"
       "iina"
       "openwhispr"
-      "dimentium/autoraise/autoraiseapp"
+      "autoraiseapp"
+      "harbor"
       "iloader"
       "macusb"
       "clop"
@@ -81,7 +82,14 @@
       "Dark Reader" = 1438243180;
     };
     taps = [
-      "dimentium/autoraise"
+      {
+        name = "dimentium/autoraise";
+        trusted = true;
+      }
+      {
+        name = "thsnkhn/harbor";
+        trusted = true;
+      }
     ];
     onActivation.cleanup = "zap";
     onActivation.autoUpdate = true;
