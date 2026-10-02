@@ -15,7 +15,6 @@
       "mac-mouse-fix"
       "shottr"
       "obs"
-      "camo-studio"
       "raycast"
       "rustdesk"
       "localsend"
@@ -63,9 +62,6 @@
       "zulufx"
       "zulu@21"
       "dotnet-sdk"
-
-      #Children Garbage
-      #"roblox"
     ];
     masApps = {
       "XCode" = 497799835;
