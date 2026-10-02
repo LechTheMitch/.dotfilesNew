@@ -37,6 +37,7 @@
     NSGlobalDomain.AppleICUForce24HourTime = true;
     NSGlobalDomain."com.apple.keyboard.fnState" = true;
     NSGlobalDomain.AppleKeyboardUIMode = 2;
+    CustomUserPreferences."com.apple.desktopservices".DSDontWriteUSBStores = true;
     WindowManager.EnableStandardClickToShowDesktop = true;
     WindowManager.HideDesktop = true;
     WindowManager.StandardHideDesktopIcons = true;

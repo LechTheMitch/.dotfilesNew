@@ -40,7 +40,7 @@
       "iloader"
       "macusb"
       "clop"
-      "lab421/tap/forel"
+      "forel"
 
       #Dev
       "orbstack"
@@ -88,6 +88,10 @@
       }
       {
         name = "thsnkhn/harbor";
+        trusted = true;
+      }
+      {
+        name = "lab421/tap";
         trusted = true;
       }
     ];
