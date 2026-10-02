@@ -5,12 +5,12 @@
     enable = true;
     brews = [
       "mas"
+      "mole"
+      "wimlib"
     ];
     casks = [
       "zen"
       "affinity"
-      #"stacher https://stacher.io/"
-      #"qlcodec from github"
       #"syntax-highlight"
       "mac-mouse-fix"
       "shottr"
@@ -35,9 +35,11 @@
       "gimp"
       "iina"
       "openwhispr"
-      "kde-connect"
       "dimentium/autoraise/autoraiseapp"
       "iloader"
+      "macusb"
+      "clop"
+      "lab421/tap/forel"
 
       #Dev
       "orbstack"
@@ -69,9 +71,11 @@
       #"Davinci Resolve" = 571213070;
       "Whatsapp" = 310633997;
       "PDFgear" = 6469021132;
-      "The Unarchiver" = 425424353;
+      "MacPacker" = 6473273874;
       "Bitwardin" = 1352778147;
       "Garageband" = 682658836;
+      "Prefab" = 6758208322;
+
       #Safari Extentions
       "Ghostery" = 6504861501; #Adblock
       "Dark Reader" = 1438243180;
