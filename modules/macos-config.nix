@@ -13,10 +13,10 @@
     dock.magnification = false;
     dock.expose-group-apps = true;
     dock.minimize-to-application = true;
-    dock.wvous-tl-corner = 2;
+    #dock.wvous-tl-corner = 10;
     dock.wvous-tr-corner = 3;
     dock.wvous-br-corner = 4;
-    dock.wvous-bl-corner = 11;
+    #dock.wvous-bl-corner = 14;
     dock.persistent-apps = [
       "/Applications/Zen.app"
       "/Applications/ghostty.app"
