@@ -34,7 +34,6 @@
       "gimp"
       "iina"
       "openwhispr"
-      "autoraiseapp"
       "harbor"
       "iloader"
       "macusb"
@@ -78,10 +77,6 @@
       "Dark Reader" = 1438243180;
     };
     taps = [
-      {
-        name = "dimentium/autoraise";
-        trusted = true;
-      }
       {
         name = "thsnkhn/harbor";
         trusted = true;
