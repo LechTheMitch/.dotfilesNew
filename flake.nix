@@ -34,6 +34,8 @@
 
         fonts.packages = with pkgs; [
           fira-code
+          #corefonts Linux only
+          vista-fonts
           nerd-fonts.jetbrains-mono
           nerd-fonts.fira-code
         ];
