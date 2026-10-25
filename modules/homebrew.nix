@@ -59,7 +59,7 @@
       "mysqlworkbench"
       "t3-code"
       "zulufx"
-      "zulu@21"
+      "zulu@25"
       "dotnet-sdk"
     ];
     masApps = {
@@ -75,6 +75,7 @@
       #Safari Extentions
       "Ghostery" = 6504861501; #Adblock
       "Dark Reader" = 1438243180;
+      "Raindrop" = 1549370672;
     };
     taps = [
       {
