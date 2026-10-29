@@ -33,7 +33,6 @@
       "helium-browser"
       "gimp"
       "iina"
-      "openwhispr"
       "harbor"
       "iloader"
       "macusb"
