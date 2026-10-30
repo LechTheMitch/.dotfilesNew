@@ -38,6 +38,7 @@
       "macusb"
       "clop"
       "forel"
+      "lulu"
 
       #Dev
       "orbstack"
