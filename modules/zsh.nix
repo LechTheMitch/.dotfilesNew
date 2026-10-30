@@ -13,6 +13,7 @@
         darwinupdate = "sudo darwin-rebuild switch --flake ~/.dotfiles/";
       };
       initContent = ''
+        eval "$(/opt/homebrew/bin/brew shellenv)"
         lazyg() {
           if [ -z "$1" ]; then
             echo "Usage: lazyg \"commit message\""
