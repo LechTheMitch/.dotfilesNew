@@ -18,6 +18,7 @@
     export ANDROID_USER_HOME="$XDG_DATA_HOME/android"
     export CODEX_HOME="$XDG_CONFIG_HOME/codex"
     export DOCKER_CONFIG="$XDG_CONFIG_HOME/docker"
+    export AWS_ENDPOINT_URL=http://localhost:4566
   '';
 
   imports = [

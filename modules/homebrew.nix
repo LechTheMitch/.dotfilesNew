@@ -61,6 +61,7 @@
       "zulufx"
       "zulu@25"
       "dotnet-sdk"
+      "floci"
     ];
     masApps = {
       "XCode" = 497799835;
@@ -79,11 +80,15 @@
     };
     taps = [
       {
+        name = "lab421/tap";
+        trusted = true;
+      }
+      {
         name = "thsnkhn/harbor";
         trusted = true;
       }
       {
-        name = "lab421/tap";
+        name = "floci-io/floci";
         trusted = true;
       }
     ];
